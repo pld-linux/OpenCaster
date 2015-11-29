@@ -7,6 +7,7 @@ Group:		Networking
 Source0:	http://www.avalpa.com/assets/freesoft/opencaster/%{name}%{version}.tgz
 # Source0-md5:	e5e0f93cbec504936c796468d392b323
 URL:		http://avalpa.com/the-key-values/15-free-software/33-opencaster
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	libdvbcsa-devel
 #BuildRequires:	libgomp-devel
 BuildRequires:	python-devel
